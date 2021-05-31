@@ -7,6 +7,7 @@
 			"kayse_haunt",
 			"kayse_pyre",
 			"kayse_wight",
+			"kayse_banshee",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -15,12 +16,13 @@
 		"hulls":[
 			"kayse_grim",
 			"kayse_haunt",
+			"kayse_banshee",
 		],
 	},
 	"knownFighters":{
 		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "tritachyon"],
 		"fighters":[
-			#"kayse_poltergeist",
+			"kayse_poltergeist_wing",
 		],
 	},
 	"priorityFighters":{

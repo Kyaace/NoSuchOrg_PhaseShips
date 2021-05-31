@@ -79,6 +79,7 @@
 			"kayse_haunt",
 			"kayse_pyre",
 			"kayse_wight",
+			"kayse_banshee",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -93,6 +94,7 @@
 			"kayse_grim",
 			"kayse_haunt",
 			#"kayse_dullahan",
+			"kayse_banshee",
 		],
 	},
 	"knownFighters":{
@@ -104,7 +106,7 @@
 			"trident_wing",
 			"cobra_wing",
 			"longbow_wing",
-			#"kayse_poltergeist_variant",
+			"kayse_poltergeist_wing",
 		],
 	},
 	"priorityFighters":{
@@ -164,7 +166,7 @@
 			"fluxbreakers",
 			"hiressensors",
 			"efficiency_overhaul",
-			"kayse_precisionbombardment",
+			#"kayse_precisionbombardment",
 			"kayse_phasetuninglean",
 			"kayse_phasetuningrich",
 		],

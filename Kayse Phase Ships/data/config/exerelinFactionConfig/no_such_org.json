@@ -62,7 +62,7 @@
       ["kayse_wight_variant", "kayse_ghoul_variant"],
     ],
     "startShipsCombatLarge":[
-      ["kayse_dullahan_variant", "harbinger_Strike", "kayse_grim_variant"]
+      ["kayse_dullahan_variant", "kayse_banshee_variant", "kayse_grim_variant"]
     ],
     "startShipsTradeLarge":[
       ["revenant_Elite", "kayse_wight", "kayse_ghoul_variant"]
