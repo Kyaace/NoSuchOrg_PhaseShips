@@ -1,0 +1,10 @@
+name,id,tier,rarity,tags,uiTags,base value,unlocked,hidden,hiddenEverywhere,tech/manufacturer,cost_frigate,cost_dest,cost_cruiser,cost_capital,script,desc,short,sprite
+Precision Bombardment,kayse_precisionbombardment,1,,"special, req_spaceport","Requires Dock, Logistics",7500,,,TRUE,No Such Org,5,10,15,25,data.hullmods.Kayse_PrecisionBombardment,"Package for precision orbital bombardment. Reduces bombardment cost by %s/%s/%s/%s depending on hull size.
+
+Not compatible with other ground support or bombardment hull features.",,graphics/hullmods/kayse_crosshair.png
+Phase Tuning - Lean,kayse_phasetuninglean,1,,"special","Special",10000,,,,No Such Org,-5,-5,-5,-5,data.hullmods.Kayse_PhaseTuningLean,"Adjust the Phase Coils to run colder, slows the phase-time bonus by %s.
+
+Not compatible with other phase tunings, unstable coils, or experimental coils.",,graphics/hullmods/kayse_phase_field_bluer.png
+Phase Tuning - Rich,kayse_phasetuningrich,1,,"special","Special",10000,,,,No Such Org,5,10,15,25,data.hullmods.Kayse_PhaseTuningRich,"Adjust the Phase Coils to run hotter, increases the phase-time bonus by %s.
+
+Not compatible with other phase tunings, unstable coils, or experimental coils.",,graphics/hullmods/kayse_phase_field_redder.png

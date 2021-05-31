@@ -1,0 +1,30 @@
+{
+	
+	# carriers
+	"carrierSmall":{
+		"kayse_haunt_variant":10
+	},
+
+	# phase ships
+	"phaseSmall":{
+		"kayse_grim_variant":10,
+		"kayse_ghoul_variant":10,
+	},
+	"phaseMedium":{
+		"kayse_dullahan_variant":5,
+	},
+	"phaseLarge":{
+	},
+	"phaseCapital":{
+	},
+
+	# freighters and such
+	"freighterSmall":{
+		"kayse_wight_variant":10,
+	},
+	
+	"tankerSmall":{
+		"kayse_pyre_variant":10,
+	},
+	
+}

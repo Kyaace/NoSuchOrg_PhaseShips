@@ -1,0 +1,32 @@
+{
+	"knownShips":{
+		"tags":["base_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"hulls":[
+			"kayse_ghoul",
+			"kayse_grim",
+			"kayse_haunt",
+			"kayse_pyre",
+			"kayse_wight",
+		],
+	},
+	# listing ships here will make the faction mostly use them even if other hulls become available
+	"priorityShips":{
+		"tags":[],
+		"hulls":[
+			"kayse_grim",
+			"kayse_haunt",
+		],
+	},
+	"knownFighters":{
+		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"fighters":[
+			#"kayse_poltergeist",
+		],
+	},
+	"priorityFighters":{
+		"tags":[],
+		"fighters":[
+		],
+	},
+},
+
