@@ -1,0 +1,11 @@
+{
+	"designTypeColors":{
+            "No Such Org":[70,72,140,255],
+    },
+	"graphics":{
+		"blueprint_packages":{
+			#"no_such_org_hull_package":"graphics/kayse/icons/cargo/no_such_org_package.png",
+			#"no_such_org_weapon_package":"graphics/kayse/icons/cargo/no_such_org_package.png",
+		}
+	}
+}

@@ -8,3 +8,6 @@ Not compatible with other phase tunings, unstable coils, or experimental coils."
 Phase Tuning - Rich,kayse_phasetuningrich,1,,"special","Special",10000,,,,No Such Org,5,10,15,25,data.hullmods.Kayse_PhaseTuningRich,"Adjust the Phase Coils to run hotter, increases the phase-time bonus by %s.
 
 Not compatible with other phase tunings, unstable coils, or experimental coils.",,graphics/hullmods/kayse_phase_field_redder.png
+Phase Logistics,kayse_phaselogistics,1,,"special","Special",20000,,TRUE,,No Such Org,0,0,0,0,data.hullmods.Kayse_PhaseLogistics,"No Such Organization has improved the logistics of phase ships, reducing the supplies required for maintence and recovery by %s.
+
+This stealth expertise is applied to non-phase ships by reducing any unnecessary signals, resulting in %s reduced sensor profile.",,graphics/hullmods/tiny_crest_nosuchorg.png
