@@ -2,6 +2,7 @@
 	"knownShips":{
 		"tags":["base_bp", "midline_bp", "hightech_bp", "tritachyon"],
 		"hulls":[
+			"kayse_dullahan",
 			"kayse_ghoul",
 			"kayse_grim",
 			"kayse_haunt",
@@ -14,9 +15,9 @@
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-			"kayse_grim",
-			"kayse_haunt",
-			"kayse_banshee",
+			#"kayse_grim",
+			#"kayse_haunt",
+			#"kayse_banshee",
 		],
 	},
 	"knownFighters":{

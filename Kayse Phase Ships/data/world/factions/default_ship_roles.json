@@ -1,5 +1,24 @@
 {
 	
+	"combatSmall":{
+		"fallback":{"phaseSmall":1},
+	},
+	
+	"combatMedium":{
+		"kayse_dullahan_variant":1,
+		#"harbinger_Strike":1,
+		"fallback":{"phaseMedium":1},
+	},
+	
+	"combatLarge":{
+		"kayse_banshee_variant":1,
+		"fallback":{"phaseLarge":1},
+	},
+	
+	"combatCapital":{
+		"fallback":{"phaseCapital":1},
+	},
+	
 	# carriers
 	"carrierSmall":{
 		"kayse_haunt_variant":10
