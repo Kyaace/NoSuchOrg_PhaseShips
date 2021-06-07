@@ -72,6 +72,11 @@
 	],
     #"startShipsCarrierLarge":[["swp_eos_sta", "swp_arachne_sta", "brawler_tritachyon_Standard"]],
     "startShipsSuper":[["doom_Strike"]],
+	
+	"startSpecialItems":[
+        [["no_such_org_bp",  ""]],
+        #[["no_such_org_weapon_package",  ""]]
+    ],
    
    #"customStations":["fed_headquarters_station"],
    
