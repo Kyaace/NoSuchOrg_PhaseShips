@@ -1,8 +1,8 @@
 {
-  "hullName": "Banshee",
+  "hullName": "Bansidhe",
   "hullId": "kayse_banshee",
   "hullSize": "CRUISER",
-  "spriteName": "graphics/ships/banshee/banshee.png",
+  "spriteName": "graphics/kayse/ships/banshee/banshee.png",
   "style": "HIGH_TECH",
   "height": 222,
   "width": 162,

@@ -16,6 +16,7 @@ import com.fs.starfarer.api.impl.campaign.ids.Factions;
 import com.fs.starfarer.api.impl.campaign.ids.StarTypes;
 import com.fs.starfarer.api.impl.campaign.ids.Submarkets;
 import com.fs.starfarer.api.impl.campaign.ids.Commodities;
+import com.fs.starfarer.api.impl.campaign.ids.Terrain;
 import com.fs.starfarer.api.impl.campaign.procgen.NebulaEditor;
 import com.fs.starfarer.api.impl.campaign.procgen.StarAge;
 import com.fs.starfarer.api.impl.campaign.procgen.StarSystemGenerator;
@@ -93,7 +94,8 @@ public class nusquam {
 //        // DECORATIONS 
 //        
 //
-        system.addAsteroidBelt(Nusquam_sun, 120, 5000, 128, 440, 470);
+        //system.addAsteroidBelt(Nusquam_sun, 120, 5000, 128, 440, 470);
+        system.addAsteroidBelt(Nusquam_sun, 1500, 5000, 200, 300, 600, Terrain.ASTEROID_BELT, "The Ring");
 
         
 //        // JUMP POINTS 

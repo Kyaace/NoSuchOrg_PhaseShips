@@ -33,6 +33,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		// Set up the player's fleet.
 		api.addToFleet(FleetSide.PLAYER, "kayse_dullahan_variant", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.PLAYER, "kayse_banshee_variant", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "kayse_harbinger_NSO_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_ghoul_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_grim_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_haunt_variant", FleetMemberType.SHIP, false);

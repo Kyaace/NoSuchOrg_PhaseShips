@@ -2,7 +2,7 @@
   "hullName": "Haunt",
   "hullId": "kayse_haunt",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/haunt/haunt.png",
+  "spriteName": "graphics/kayse/ships/haunt/haunt.png",
   "style": "HIGH_TECH",
   "height": 108,
   "width": 140,

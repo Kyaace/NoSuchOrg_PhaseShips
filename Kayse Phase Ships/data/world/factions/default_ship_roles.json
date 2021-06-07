@@ -6,6 +6,7 @@
 	
 	"combatMedium":{
 		"kayse_dullahan_variant":1,
+		"kayse_harbinger_NSO_variant":1,
 		#"harbinger_Strike":1,
 		"fallback":{"phaseMedium":1},
 	},
@@ -31,6 +32,7 @@
 	},
 	"phaseMedium":{
 		"kayse_dullahan_variant":5,
+		"kayse_harbinger_NSO_variant":10,
 	},
 	"phaseLarge":{
 		"kayse_banshee_variant":10,

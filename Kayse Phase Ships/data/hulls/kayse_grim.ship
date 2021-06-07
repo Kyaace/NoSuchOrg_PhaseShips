@@ -2,7 +2,7 @@
   "hullName": "Grim",
   "hullId": "kayse_grim",
   "hullSize": "FRIGATE",
-  "spriteName": "graphics/ships/grim/grim.png",
+  "spriteName": "graphics/kayse/ships/grim/grim.png",
   "style": "HIGH_TECH",
   "height": 120,
   "width": 52,

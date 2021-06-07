@@ -1,8 +1,8 @@
 {
-  "hullName": "Wight",
+  "hullName": "Barrow",
   "hullId": "kayse_wight",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/wight/wight.png",
+  "spriteName": "graphics/kayse/ships/wight/wight.png",
   "style": "HIGH_TECH",
   "height": 152,
   "width": 134,

@@ -2,7 +2,7 @@
   "hullName": "Pyre",
   "hullId": "kayse_pyre",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/pyre/pyre.png",
+  "spriteName": "graphics/kayse/ships/pyre/pyre.png",
   "style": "HIGH_TECH",
   "height": 234,
   "width": 120,

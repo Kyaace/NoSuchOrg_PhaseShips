@@ -2,7 +2,7 @@
   "hullName": "Dullahan",
   "hullId": "kayse_dullahan",
   "hullSize": "DESTROYER",
-  "spriteName": "graphics/ships/dullahan/dullahan.png",
+  "spriteName": "graphics/kayse/ships/dullahan/dullahan.png",
   "style": "HIGH_TECH",
   "height": 170,
   "width": 110,
