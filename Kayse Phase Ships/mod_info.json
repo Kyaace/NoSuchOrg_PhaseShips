@@ -2,7 +2,7 @@
 	"id":"kayse_phaseships", # internal id
 	"name":"No Such Organization - Phase ships", # displayed to the player
 	"author":"Kayse",
-	"version":"0.2.3",
+	"version":"0.2.4",
 	"description":"Some kitbashed phase ships.",
 	"gameVersion":"0.95a-RC15",
 	"jars":["jars/Kayse_PhaseShips.jar"],
