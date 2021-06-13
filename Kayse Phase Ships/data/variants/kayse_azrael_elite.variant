@@ -3,12 +3,11 @@
   "hullId": "kayse_azrael",
   "displayName": "Elite",
   "goalVariant": true,
-  "fluxCapacitors": 27,
-  "fluxVents": 50,
+  "fluxCapacitors": 0,
+  "fluxVents": 32,
   "quality": 3,
   "permaMods": [],
   "hullMods": [
-    "fluxbreakers",
     "heavyarmor"
   ],
   "weaponGroups": [

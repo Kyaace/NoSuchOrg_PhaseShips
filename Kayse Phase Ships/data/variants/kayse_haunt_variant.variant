@@ -1,8 +1,8 @@
 {
   "variantId": "kayse_haunt_variant",
   "hullId": "kayse_haunt",
-  "displayName": "Strike",
-  "goalVariant": false,
+  "displayName": "Escort",
+  "goalVariant": true,
   "fluxCapacitors": 20,
   "fluxVents": 8,
   "quality": 1,
