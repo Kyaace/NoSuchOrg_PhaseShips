@@ -13,6 +13,10 @@ import com.fs.starfarer.api.combat.ShipAPI;
 public class MissionDefinition implements MissionDefinitionPlugin {
 
 	public void defineMission(MissionDefinitionAPI api) {
+		//Original Mission from ScalarTech Solutions:
+		//ScalarTech Solutions Mod by Nia Tahl is licensed under a
+		//Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+		//Any derivative work must also comply with Starsector's EULA
 
 		// Set up the fleets so we can add ships and fighter wings to them.
 		// In this scenario, the fleets are attacking each other, but
@@ -32,6 +36,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		
 		// Set up the player's fleet.
 		api.addToFleet(FleetSide.PLAYER, "kayse_dullahan_variant", FleetMemberType.SHIP, true);
+		api.addToFleet(FleetSide.PLAYER, "kayse_azrael_elite", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_banshee_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_harbinger_NSO_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_ghoul_variant", FleetMemberType.SHIP, false);

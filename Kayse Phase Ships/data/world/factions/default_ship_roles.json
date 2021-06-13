@@ -17,6 +17,7 @@
 	},
 	
 	"combatCapital":{
+		"kayse_azrael_elite":1,
 		"fallback":{"phaseCapital":1},
 	},
 	
@@ -38,6 +39,7 @@
 		"kayse_banshee_variant":10,
 	},
 	"phaseCapital":{
+		"kayse_azrael_elite":10,
 	},
 
 	# freighters and such

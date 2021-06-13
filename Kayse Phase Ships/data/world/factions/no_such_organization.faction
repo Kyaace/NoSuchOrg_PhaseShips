@@ -82,14 +82,15 @@
 			"kayse_pyre",
 			"kayse_wight",
 			"kayse_banshee",
-			"kayse_harbinger_NSO"
+			"kayse_harbinger_NSO",
+			"kayse_azrael"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
 	"priorityShips":{
 		"tags":[],
 		"hulls":[
-			"doom",
+			#"doom",
 			"afflictor",
 			"shade",
 			"harbinger",
@@ -98,6 +99,7 @@
 			"kayse_haunt",
 			"kayse_harbinger_NSO",
 			"kayse_banshee",
+			"kayse_azrael"
 		],
 	},
 	"knownFighters":{
