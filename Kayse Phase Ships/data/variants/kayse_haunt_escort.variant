@@ -1,10 +1,10 @@
 {
-  "variantId": "kayse_haunt_variant",
+  "variantId": "kayse_haunt_escort",
   "hullId": "kayse_haunt",
   "displayName": "Escort",
-  "goalVariant": false,
+  "goalVariant": true,
   "fluxCapacitors": 20,
-  "fluxVents": 8,
+  "fluxVents": 2,
   "quality": 1,
   "permaMods": [],
   "hullMods": [],
@@ -37,5 +37,8 @@
     }
   ],
   "modules": [],
-  "wings": []
+  "wings": [
+    "kayse_poltergeist_wing",
+    "kayse_poltergeist_wing"
+  ]
 }

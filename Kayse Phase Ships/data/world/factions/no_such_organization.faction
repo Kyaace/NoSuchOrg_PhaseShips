@@ -63,7 +63,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":[],
+		"tags":[no_such_org_bp],
 		"hulls":[
 			"doom",
 			"afflictor",
@@ -83,7 +83,9 @@
 			"kayse_wight",
 			"kayse_banshee",
 			"kayse_harbinger_NSO",
-			"kayse_azrael"
+			"kayse_azrael",
+			"kayse_necromancer",
+			"kayse_ghost"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -91,19 +93,20 @@
 		"tags":[],
 		"hulls":[
 			#"doom",
-			"afflictor",
-			"shade",
-			"harbinger",
+			#"afflictor",
+			#"shade",
+			#"harbinger",
 			#"paragon",
-			"kayse_grim",
-			"kayse_haunt",
-			"kayse_harbinger_NSO",
-			"kayse_banshee",
-			"kayse_azrael"
+			#"kayse_grim",
+			#"kayse_haunt",
+			#"kayse_harbinger_NSO",
+			#"kayse_banshee",
+			#"kayse_ghost",
+			#"kayse_azrael"
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"tags":[],
 		"fighters":[
 			"xyphos_wing",
 			"thunder_wing",
@@ -112,12 +115,14 @@
 			"cobra_wing",
 			"longbow_wing",
 			"kayse_poltergeist_wing",
+			"kayse_maggot_wing",
 		],
 	},
 	"priorityFighters":{
 		"tags":[],
 		"fighters":[
 			"kayse_poltergeist_wing",
+			"kayse_maggot_wing",
 		],
 	},
 	"knownWeapons":{
@@ -177,7 +182,7 @@
 		],
 	},
 	"factionDoctrine":{
-		"warships":1,
+		"warships":0,
 		"carriers":2,
 		"phaseShips":5,
 		

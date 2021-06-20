@@ -32,6 +32,15 @@ A deadly phase destroyer feared and scorned by those crews who have suffered the
 kayse_azrael,SHIP,"This is a battlecruiser, designed from the keel up for the use of phase cloak actuators. The flux circuitry can briefly drive weaponry nearly equal to a battleship, and the armor is lightweight and protective. No expense was spared for this, the crown jewel of the PHASEOPS fleet.
 
 This ship was so expensive that very few could be fielded in battle; when the Hegemony became aware of the ship's existence and the blatant disregard of the Treaty of Thule, they mobilized a massive armada against the PHASEOPS 3rd Task Force's Headquarters and razed the planet down to bedrock.",,,
+kayse_necromancer,SHIP,"This salvage rig has been vastly upgraded for PHASEOPS use. In addition to recovering salvage and carrying a bit of extra storage, it can revive and remotely control small hulks on the battlefield to provide a distracting target for the enemy to fire at.
+
+""Ignore that frigate, focus on the phase ships flanking us! Gunners, ignore that frigate. Switch your fire to the phase ships now!""
+- Final transmission from HSS Redoubt",,,
+kayse_corpse,SHIP,"This Lasher wreck has been poorly repaired and retrofitted with a remote control. It can fight, barely, but it mostly exists as a distraction.",,,
+kayse_ghost,SHIP,"This carrier demostraits a revolutionary phase-curtain method of partially unphasing the launch bay to allow a fighter to egress the carrier in battle. While mostly safe for all fighters, it excels at the NSO's own phase fighters which can interface with the phase-curtain, speeding up the process.
+
+The Ghost class of phase carriers were developed too late to influence the Second AI War, but the developments were retrofitted onto existing Haunt class ships.",,,
+kayse_maggot,SHIP,"Designed around a miniaturized phase coil, this bomber can project force with its torpedo loadout. Slow and fragile, it falters against sustained point-defense  or fighter cover that allows it no safe area to exit p-space.",,,
 #Planets,,,,,
 nso_tombstone_description,CUSTOM,"During the AI Wars, this was better known at Brightstone, a garrison for PHASE capable warships and all of the bureaucracy required to keep a military base alive. While the raids and ships departing from this system were nearly invisible, the planet itself came under the crosshairs of the Hegemony and bombed the planet with nuclear and antimatter weapons. Tri-Tachyon investiment barely kept the planet alive as it regrew, but it still is a shadow of its former stature.",,"Other than some farms growing RAD resistant food staples, there is little to show that humans live on this planet. That is, until a shuttle flies out of a cunningly concealed hanger, hinting that this planet may conceal more.",
 nso_crypt_description,CUSTOM,"During the AI Wars, this was better known at Citidel, a waystation for PHASE capable warships. Hegemony bombed the planet and it has been recovering since.",,"The snow and soot mix and fall in a grey dusting over the land, leaving streaks on any shuttlecraft flying through.",
@@ -40,3 +49,4 @@ no_such_org,FACTION,"This organization was originally the Tri-Tachyon PHASEOPS 3
 While Tri-Tachyon maintains the expertise on designing, researching and developing new phase designs, No Such Organization have taken the utilization of the Mark III Phase Cloaks actuator to the doctrinal extreme. If you can solve a problem by sticking Phase Coils on a ship, they will do so. If not, then they argue that you aren't using enough Phase Coils.",,,
 #Ship Systems,,,,,
 kayse_phase_disruptor,SHIP_SYSTEM,"Briefly disables the target's phase coils with quantum effects that the scientists can't explain. No effect on non-phase ships.",Offensive,Briefly uncloaks a nearby phase ship.
+kayse_reanimate_corpse,SHIP_SYSTEM,"Revives a frigate hulk with drone controls from collected salvage. Useful as low-cost distraction.",Drone,Revive salvaged frigate as distraction drone.

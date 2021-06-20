@@ -38,10 +38,12 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "kayse_dullahan_variant", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.PLAYER, "kayse_azrael_elite", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_banshee_variant", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "kayse_ghost_strike", FleetMemberType.SHIP, false);		
 		api.addToFleet(FleetSide.PLAYER, "kayse_harbinger_NSO_variant", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "kayse_haunt_escort", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "kayse_necromancer_support", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_ghoul_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_grim_variant", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.PLAYER, "kayse_haunt_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_pyre_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_wight_variant", FleetMemberType.SHIP, false);
 		

@@ -38,8 +38,8 @@
 	
     "alignments":{
         "corporate":0.2,	
-        "technocratic":1.0,
-		"militarist":0.5,
+        "technocratic":0.5,
+		"militarist":0.4,
     },
 	
 	"diplomacyTraits":["stalwart", "helps_allies", "anarchist", "lowprofile", "devious"],

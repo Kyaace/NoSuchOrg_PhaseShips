@@ -13,10 +13,8 @@
   "viewOffset": 0,
   "builtInMods": [
     "phasefield",
-    "delicate"
-  ],
-  "builtInWings": [
-    "kayse_poltergeist_wing"
+    "delicate",
+    "kayse_phasecarrier"
   ],
   "weaponSlots": [
     {

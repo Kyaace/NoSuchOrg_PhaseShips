@@ -1,6 +1,6 @@
 {
 	"knownShips":{
-		"tags":["base_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"tags":["no_such_org_bp"],
 		"hulls":[
 			"kayse_dullahan",
 			"kayse_ghoul",
@@ -9,7 +9,9 @@
 			"kayse_pyre",
 			"kayse_wight",
 			"kayse_banshee",
-			"kayse_harbinger_NSO"
+			"kayse_harbinger_NSO",
+			"kayse_necromancer",
+			"kayse_ghost"
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -22,7 +24,7 @@
 		],
 	},
 	"knownFighters":{
-		"tags":["base_bp", "lowtech_bp", "midline_bp", "hightech_bp", "tritachyon"],
+		"tags":[],
 		"fighters":[
 			"kayse_poltergeist_wing",
 		],
