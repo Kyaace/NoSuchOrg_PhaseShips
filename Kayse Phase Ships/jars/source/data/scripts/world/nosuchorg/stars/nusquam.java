@@ -60,19 +60,19 @@ public class nusquam {
 //        tombstone_Market.getIndustry(Industries.HIGHCOMMAND).setAICoreId(Commodities.ALPHA_CORE);
 //        tombstone_Market.getIndustry(Industries.STARFORTRESS_HIGH).setAICoreId(Commodities.ALPHA_CORE);
 
-        PlanetAPI crypt_gas_planet = system.addPlanet("nso_crypt_gas", Nusquam_sun, "Mausoleum", "ice_giant", 170, 320, 8000, 240); // 0.0025 AU
+        PlanetAPI boneyard_gas_planet = system.addPlanet("nso_boneyard_gas", Nusquam_sun, "Ossum", "ice_giant", 170, 320, 8000, 240); // 0.0025 AU
 
-        PlanetAPI crypt_planet = system.addPlanet("nso_crypt", crypt_gas_planet, "Crypt", "tundra", 300, 180, 1200, 24); // 0.0025 AU
-        crypt_planet.setCustomDescriptionId("nso_crypt_description");
-        crypt_planet.getSpec().setRotation(5f); // 5 degrees/second = 7.2 days/revolution
-//        crypt_planet.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
-        crypt_planet.getSpec().setGlowColor(new Color(255, 0, 255, 255));
-        crypt_planet.applySpecChanges();
+        PlanetAPI boneyard_planet = system.addPlanet("nso_boneyard", boneyard_gas_planet, "Boneyard", "tundra", 300, 180, 1200, 24); // 0.0025 AU
+        boneyard_planet.setCustomDescriptionId("nso_crypt_description");
+        boneyard_planet.getSpec().setRotation(5f); // 5 degrees/second = 7.2 days/revolution
+//        boneyard_planet.getSpec().setGlowTexture(Global.getSettings().getSpriteName("hab_glows", "sindria"));
+        boneyard_planet.getSpec().setGlowColor(new Color(255, 0, 255, 255));
+        boneyard_planet.applySpecChanges();
         
         //addMarketplace(String factionID, SectorEntityToken primaryEntity, ArrayList<SectorEntityToken> connectedEntities, String name, 
         //int size, ArrayList<String> marketConditions, ArrayList<String> Industries, ArrayList<String> submarkets, float tariff)
-        MarketAPI crypt_Market = addMarketplace.addMarketplace("no_such_org", crypt_planet, 
-                null, "Crypt", 4, 
+        MarketAPI boneyard_Market = addMarketplace.addMarketplace("no_such_org", boneyard_planet, 
+                null, "Boneyard", 4, 
                 new ArrayList<>(Arrays.asList(Conditions.RUINS_SCATTERED, Conditions.ORE_ABUNDANT, Conditions.RARE_ORE_MODERATE, Conditions.COLD, Conditions.STEALTH_MINEFIELDS, Conditions.FREE_PORT)), 
                 new ArrayList<>(Arrays.asList(Industries.PATROLHQ, Industries.SPACEPORT, Industries.POPULATION, Industries.MINING, Industries.REFINING, Industries.ORBITALSTATION_HIGH, Industries.GROUNDDEFENSES)), 
                 new ArrayList<>(Arrays.asList(Submarkets.SUBMARKET_STORAGE, Submarkets.SUBMARKET_BLACK, Submarkets.GENERIC_MILITARY, Submarkets.SUBMARKET_OPEN)),
@@ -81,7 +81,7 @@ public class nusquam {
 
 //        // STABLE LOCATIONS AND RELAYS
 //        
-        SectorEntityToken relay = system.addCustomEntity("nso_relay", "Crypt Relay", "comm_relay",
+        SectorEntityToken relay = system.addCustomEntity("nso_relay", "Ossum Relay", "comm_relay",
                                                          "no_such_org");
                 relay.setCircularOrbit(Nusquam_sun, 220, 3500, 215);
         
@@ -100,10 +100,10 @@ public class nusquam {
         
 //        // JUMP POINTS 
 //
-        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("Crypt_jp", "Crypt Jump Point");
-        OrbitAPI orbit = Global.getFactory().createCircularOrbit(crypt_gas_planet, 90, 550, 25);
+        JumpPointAPI jumpPoint = Global.getFactory().createJumpPoint("Boneyard_jp", "Boneyard Jump Point");
+        OrbitAPI orbit = Global.getFactory().createCircularOrbit(boneyard_gas_planet, 90, 550, 25);
         jumpPoint.setOrbit(orbit);
-        jumpPoint.setRelatedPlanet(crypt_gas_planet);
+        jumpPoint.setRelatedPlanet(boneyard_gas_planet);
         jumpPoint.setStandardWormholeToHyperspaceVisual();
         system.addEntity(jumpPoint);
         
@@ -114,7 +114,8 @@ public class nusquam {
         jumpPoint2.setStandardWormholeToHyperspaceVisual();
         system.addEntity(jumpPoint2);
         
-        // PROCGEN 
+        // PROCGEN
+        
 
         float radiusAfter = StarSystemGenerator.addOrbitingEntities(system, Nusquam_sun, StarAge.AVERAGE,
                                                                     4, 6, // min/max entities to add
