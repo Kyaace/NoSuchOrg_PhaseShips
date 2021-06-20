@@ -1,11 +1,12 @@
 {
 	"masterVersionFile":"https://raw.githubusercontent.com/Kyaace/NoSuchOrg_PhaseShips/main/no_such_org.version",
 	"modName":"No Such Org",
+	"modThreadId":21848,
 	"modVersion":
 	{
 		"major":0,
-		"minor":2,
-		"patch":6
+		"minor":3,
+		"patch":0
 	},
 	"starsectorVersion":"0.95a-RC15"
 }
