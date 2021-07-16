@@ -38,6 +38,7 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "kayse_dullahan_variant", FleetMemberType.SHIP, true);
 		api.addToFleet(FleetSide.PLAYER, "kayse_azrael_elite", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_banshee_variant", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.PLAYER, "kayse_deathknight_beam", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_ghost_strike", FleetMemberType.SHIP, false);		
 		api.addToFleet(FleetSide.PLAYER, "kayse_harbinger_NSO_variant", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.PLAYER, "kayse_haunt_escort", FleetMemberType.SHIP, false);
@@ -48,10 +49,13 @@ public class MissionDefinition implements MissionDefinitionPlugin {
 		api.addToFleet(FleetSide.PLAYER, "kayse_wight_variant", FleetMemberType.SHIP, false);
 		
 		// Set up the enemy fleet.
+		for (int i = 0; i < 5; i++){
+			api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		}
+		
+		/* api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
 		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
-		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false);
+		api.addToFleet(FleetSide.ENEMY, "buffalo2_FS", FleetMemberType.SHIP, false); */
 
 		
 		// Set up the map.

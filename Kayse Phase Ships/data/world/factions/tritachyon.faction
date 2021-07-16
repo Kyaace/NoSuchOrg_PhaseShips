@@ -11,7 +11,8 @@
 			"kayse_banshee",
 			"kayse_harbinger_NSO",
 			"kayse_necromancer",
-			"kayse_ghost"
+			"kayse_ghost",
+			"kayse_deathknight",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -27,6 +28,7 @@
 		"tags":[],
 		"fighters":[
 			"kayse_poltergeist_wing",
+			"kayse_maggot_wing",
 		],
 	},
 	"priorityFighters":{

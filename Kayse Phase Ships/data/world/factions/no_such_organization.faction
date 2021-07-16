@@ -63,7 +63,7 @@
 		],
 	},
 	"knownShips":{
-		"tags":[no_such_org_bp],
+		"tags":["no_such_org_bp"],
 		"hulls":[
 			"doom",
 			"afflictor",
@@ -85,7 +85,8 @@
 			"kayse_harbinger_NSO",
 			"kayse_azrael",
 			"kayse_necromancer",
-			"kayse_ghost"
+			"kayse_ghost",
+			"kayse_deathknight",
 		],
 	},
 	# listing ships here will make the faction mostly use them even if other hulls become available
@@ -102,7 +103,8 @@
 			#"kayse_harbinger_NSO",
 			#"kayse_banshee",
 			#"kayse_ghost",
-			#"kayse_azrael"
+			#"kayse_azrael",
+			"kayse_deathknight",
 		],
 	},
 	"knownFighters":{
@@ -179,6 +181,7 @@
 			#"kayse_precisionbombardment",
 			"kayse_phasetuninglean",
 			"kayse_phasetuningrich",
+			"kayse_armorrepair",
 		],
 	},
 	"factionDoctrine":{
@@ -189,7 +192,7 @@
 		"officerQuality":1,
 		"shipQuality":4,
 		"numShips":2,
-		"shipSize":4,
+		"shipSize":3,
 		"aggression":2,
 		
 		"combatFreighterProbability":0,     				# instead of some portion of the freighters in a fleet

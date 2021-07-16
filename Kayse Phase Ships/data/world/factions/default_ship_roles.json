@@ -16,6 +16,7 @@
 	
 	"combatLarge":{
 		"kayse_banshee_variant":1,
+		"kayse_deathknight_beam":1,
 		#"fallback":{"phaseLarge":1},
 	},
 	
@@ -45,6 +46,7 @@
 	},
 	"phaseLarge":{
 		"kayse_banshee_variant":10,
+		"kayse_deathknight_beam":10,
 	},
 	"phaseCapital":{
 		"kayse_azrael_elite":5,
