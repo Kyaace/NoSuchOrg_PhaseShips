@@ -1,12 +1,14 @@
 {
 	id:"no_such_org",
-	"color":[70,72,140,255],
+	"color":[13,158,255,255],
+	#"color":[70,72,140,255],
 	#//return new Color(13,158,255,255);
 	#return new Color(70,72,140,255);
 	#"baseUIColor":[198,191,175,255],
     #"darkUIColor":[135,206,255,175],
     "gridUIColor":[70,72,142,125],
-    "secondaryUIColor":[13,158,255,255],
+    #"secondaryUIColor":[13,158,255,255],
+	"secondaryUIColor":[70,72,140,255],
     "secondarySegments":4,
 	"displayName":"No Such Org",
 	"displayNameWithArticle":"No Such Org",
@@ -104,7 +106,7 @@
 			#"kayse_banshee",
 			#"kayse_ghost",
 			#"kayse_azrael",
-			"kayse_deathknight",
+			#"kayse_deathknight",
 		],
 	},
 	"knownFighters":{

@@ -10,6 +10,9 @@
 		"blueprint_packages":{
 			"no_such_org_bp":"graphics/kayse/icons/cargo/no_such_org_package.png",
 			#"no_such_org_weapon_package":"graphics/kayse/icons/cargo/no_such_org_package.png",
+		},
+		"portraits":{
+			"kayse_havelock":"graphics/kayse/portraits/havelock.png",
 		}
 	}
 }
