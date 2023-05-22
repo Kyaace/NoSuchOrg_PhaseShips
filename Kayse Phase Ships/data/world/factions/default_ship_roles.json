@@ -4,6 +4,7 @@
 		#Have to add at least one phase ship to each combat pool due to Nexerelin random start (and maybe base game?)
 		#checking the combat Pool and getting confused if there are none.
 		"kayse_grim_variant":1,
+		"kayse_grime_variant":1,
 		#"fallback":{"phaseSmall":1},
 	},
 	
@@ -38,6 +39,7 @@
 	# phase ships
 	"phaseSmall":{
 		"kayse_grim_variant":10,
+		"kayse_grime_variant":5,
 		"kayse_ghoul_variant":5,
 	},
 	"phaseMedium":{

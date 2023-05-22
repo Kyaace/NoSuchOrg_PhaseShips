@@ -13,6 +13,10 @@ kayse_grim,SHIP,"Nearly everything that wasn't bolted down was stripped from a W
 
 ""The crews of Shades and Grims often form a unique rivalry. A popular game of Case the Cask often occurs where both ships' crews will attempt to steal the most expensive beverage from the other ship. Alternatively, if one ship can kill an enemy off of the tail off of the other, by tradition, the rescued captain will willingly give the other crew the expensive beverage.""
 - PHASEOPS, The Invisible Navy",,,
+kayse_grime,SHIP,"Nearly everything that wasn't bolted down was stripped from a Wolf in order to make a quick phase ship for interdicting soft targets behind the enemy line. The Grim can also excel at interception and harassing roles, but cannot survive sustained warship attention. This Grim keeps the Wolf's front hardpoint and is joking called a Grime due to being out of regulations.
+
+""The crews of Shades and Grims often form a unique rivalry. A popular game of Case the Cask often occurs where both ships' crews will attempt to steal the most expensive booze from the other ship. Alternatively, if one ship can kill an enemy off of the tail off of the other, by tradition, the rescued captain will willingly give the other crew the booze.""
+- PHASEOPS, The Invisible Navy",,,
 kayse_ghoul,SHIP,"The result of captured or salvaged Gremlins upgraded with a Mark III Phase Cloak actuator and more modern modules, the Ghoulie serves as an OPFOR phase ship in garrison exercises. While deployed, Ghoulies provide supporting fire in combat, and are tasked with salvaging after combat, aided by a collapsible gantry crane filling some of the space that the Gremlin's larger phase cloak used to take up.",,,
 kayse_dullahan,SHIP,"Modified from the Shrike design, this ship is designed as a flagship for PHASEOP flotillas of Destroyers and Frigates. It has the speed (and armament) of a frigate but the larger destroyer hull allows for powerful sensors and the processing power to effectively direct the flotilla on the battlefield.
 
@@ -51,5 +55,5 @@ no_such_org,FACTION,"This organization was originally the Tri-Tachyon PHASEOPS 3
 
 While Tri-Tachyon maintains the expertise on designing, researching and developing new phase designs, No Such Organization have taken the utilization of the Mark III Phase Cloaks actuator to the doctrinal extreme. If you can solve a problem by sticking Phase Coils on a ship, they will do so. If not, then they argue that you aren't using enough Phase Coils.",,,
 #Ship Systems,,,,,
-kayse_phase_disruptor,SHIP_SYSTEM,"Briefly disables the target's phase coils with quantum effects that the scientists can't explain. No effect on non-phase ships.",Offensive,Briefly uncloaks a nearby phase ship.
-kayse_reanimate_corpse,SHIP_SYSTEM,"Revives a frigate hulk with drone controls from collected salvage. Useful as low-cost distraction.",Drone,Revive salvaged frigate as distraction drone.
+kayse_phase_disruptor,SHIP_SYSTEM,Briefly disables the target's phase coils with quantum effects that the scientists can't explain. No effect on non-phase ships.,Offensive,Briefly uncloaks a nearby phase ship.,
+kayse_reanimate_corpse,SHIP_SYSTEM,Revives a frigate hulk with drone controls from collected salvage. Useful as low-cost distraction.,Drone,Revive salvaged frigate as distraction drone.,
